@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+//clearing web history
+//why is this method declared in the header file
+-(void) resetWebView;
 
 @end
 
